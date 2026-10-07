@@ -110,13 +110,13 @@ int main() {
 
 ##### Output 1
 
-![Screenshot Output guided 1_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output guided 1_1](https://github.com/ericstwn/109082500197_Eric-Setiawan_Modul-2/blob/main/109082500197_ERIC%20SETIAWAN_MODUL%202/MODUL%202/Output/soal1.png)
 
 ##### Output 2
 
-![Screenshot Output guided 1_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output guided 1_2](https://github.com/ericstwn/109082500197_Eric-Setiawan_Modul-2/blob/main/109082500197_ERIC%20SETIAWAN_MODUL%202/MODUL%202/Output/soal1.png)
 
-##penjelasan guided 1
+## penjelasan guided 1
 Program ini buat ngitung operasi matriks 3x3 yaitu penjumlahan, pengurangan, dan perkalian. Pertama program minta input matriks A dan B masing-masing 3x3 menggunakan dua loop bersarang for i dan for j yang ngisi setiap baris dan kolom. Untuk penjumlahan dan pengurangan, tambah[i][j] = A[i][j] + B[i][j] dan kurang[i][j] = A[i][j] - B[i][j] artinya setiap elemen di posisi yang sama langsung dijumlah atau dikurangi. Untuk perkalian matriks lebih kompleks, ada tiga loop bersarang dimana kali[i][j] += A[i][k] * B[k][j] ngitung setiap elemen hasil dengan cara kaliin baris dari A dengan kolom dari B lalu dijumlahin. Hasilnya ditampilin satu per satu pakai cout dengan endl buat pindah baris setiap selesai satu baris matriks.
 
 
@@ -157,16 +157,16 @@ int main() {
     return 0;
 }
 
-### Output guided 2 :
+### Output guided 2 pointer:
 
 ##### Output 1
 
-![Screenshot Output guided 2_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output guided 2_1](https://github.com/ericstwn/109082500197_Eric-Setiawan_Modul-2/blob/main/109082500197_ERIC%20SETIAWAN_MODUL%202/MODUL%202/Output/soal2pointer.png)
 
 
-##### Output 2
+##### Output 2 pointer
 
-![Screenshot Output guided 2_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output guided 2_2](https://github.com/ericstwn/109082500197_Eric-Setiawan_Modul-2/blob/main/109082500197_ERIC%20SETIAWAN_MODUL%202/MODUL%202/Output/soal2pointer.png)
 
 penjelasan guided 2 pointer
 Program ini buat nukar nilai tiga variabel a, b, dan c menggunakan pointer. Di main variabel a, b, c diisi nilai 10, 20, 30 lalu ditampilin dulu sebelum ditukar pakai cout. Fungsi tukarPointer dipanggil dengan &a, &b, &c yang artinya kita kirim alamat memori variabelnya bukan nilainya, makanya pakai tanda &. Di dalam fungsi, tanda *a, *b, *c dipakai buat ngakses nilai asli dari alamat yang dikirim. Proses tukarnya pakai variabel temp sebagai penampung sementara, nilai *c disimpan ke temp, lalu *c diisi nilai *b, *b diisi nilai *a, dan *a diisi nilai dari temp. Jadi urutan nilainya bergeser, yang tadinya a=10, b=20, c=30 jadi a=30, b=10, c=20.
@@ -206,16 +206,16 @@ int main() {
     return 0;
 }
 
-### Output guided 2 :
+### Output guided 2 reference:
 
 ##### Output 1
 
-![Screenshot Output guided 2_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output guided 2_1](https://github.com/ericstwn/109082500197_Eric-Setiawan_Modul-2/blob/main/109082500197_ERIC%20SETIAWAN_MODUL%202/MODUL%202/Output/soal2reference.png)
 
 
-##### Output 2
+##### Output 2 reference
 
-![Screenshot Output guided 2_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output guided 2_2](https://github.com/ericstwn/109082500197_Eric-Setiawan_Modul-2/blob/main/109082500197_ERIC%20SETIAWAN_MODUL%202/MODUL%202/Output/soal2reference.png)
 
 penjelasan guided 2 reference
 Program ini buat nukar nilai tiga variabel a, b, dan c menggunakan reference, mirip program sebelumnya tapi bedanya pakai tanda & di parameter fungsinya bukan di saat memanggilnya. Di main variabel a, b, c diisi nilai 10, 20, 30 lalu ditampilin dulu sebelum ditukar. Fungsi tukarReference dipanggil dengan tukarReference(a, b, c) tanpa tanda & karena reference langsung ngerujuk ke variabel aslinya secara otomatis. Di dalam fungsi, int &a, int &b, int &c artinya a, b, c di sini adalah nama lain dari variabel aslinya, jadi kalau diubah langsung ngaruh ke nilai aslinya tanpa perlu tanda *. Proses tukarnya sama seperti sebelumnya pakai temp sebagai penampung sementara sehingga hasilnya a=30, b=10, c=20. Bedanya sama program pointer, reference lebih simpel penulisannya karena tidak perlu tanda * dan & saat manggil fungsinya.
@@ -315,12 +315,12 @@ int main() {
 
 ##### Output 1
 
-![Screenshot Output guided 3_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output guided 3_1](https://github.com/ericstwn/109082500197_Eric-Setiawan_Modul-2/blob/main/109082500197_ERIC%20SETIAWAN_MODUL%202/MODUL%202/Output/soal3(1).png)
 
 
 ##### Output 2
 
-![Screenshot Output guided 3_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output guided 3_2](https://github.com/ericstwn/109082500197_Eric-Setiawan_Modul-2/blob/main/109082500197_ERIC%20SETIAWAN_MODUL%202/MODUL%202/Output/soal3(2).png)
 
 penjelasan guided 3
 Program ini buat ngolah data array dengan menu pilihan. Array arrA sudah diisi 10 angka yaitu {48, 2, 7, 21, 5, 20, 77, 9, 10, 1} sejak awal tanpa perlu input. Program nampilin menu pilihan pakai cout lalu minta input pilihan pakai cin >> pilihan. Kalau pilih 1, program nampilin semua isi array pakai loop for. Kalau pilih 2, fungsi maksimum dipanggil yang bekerja dengan cara nyimpen nilai pertama ke max lalu bandingin satu-satu, kalau ada yang lebih besar maka max diperbarui. Kalau pilih 3, fungsi minimum bekerja sama tapi nyari yang terkecil. Kalau pilih 4, fungsi rataRata ngitung total semua elemen lalu dibagi n, hasilnya disimpan ke hasilRataRata pakai reference &hasil supaya nilainya bisa dibawa keluar fungsi. Kalau inputnya selain 1-4 maka nampilin pesan pilihan tidak tersedia.
