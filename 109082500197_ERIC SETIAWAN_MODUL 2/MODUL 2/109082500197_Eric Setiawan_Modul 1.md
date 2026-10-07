@@ -105,7 +105,7 @@ int main() {
 
     return 0;
 }
-
+```
 ### Output guided 1 :
 
 ##### Output 1
@@ -156,7 +156,7 @@ int main() {
 
     return 0;
 }
-
+```
 ### Output guided 2 pointer:
 
 ##### Output 1
@@ -205,7 +205,7 @@ int main() {
 
     return 0;
 }
-
+```
 ### Output guided 2 reference:
 
 ##### Output 1
@@ -310,7 +310,7 @@ int main() {
 
     return 0;
 }
-
+```
 ### Output guided 3 :
 
 ##### Output 1
